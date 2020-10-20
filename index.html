@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management App</title>
+    <!-- here in .ico file format we can define Titlebar Application Icon -->
+    <link rel="shortcut icon" href="" type="image/x-icon"> 
+    <!-- here in .ico file format we can define Titlebar Application Icon -->
+    <link rel="stylesheet" href="assets/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-left">
+            <div class="main-left-l"></div>
+            <div class="main-left-r">
+                <div class="main-left-r-header">
+                    <div class="header-img"></div>
+                    <div class="header-title">What is your next event?</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active">Day</li>
+                        <li>Week</li>
+                        <li>Month</li>
+                    </ul>
+                </nav>
+                <h1>Monday</h1>
+                <h2>28 Sep<i class="fas fa-less-than"></i><i class="fas fa-greater-than"></i></h2>
+                <div class="event-info">
+                    <div class="time">13:00 - 14:00</div>
+                    <div class="event">Lunch with Peter</div>
+                </div>
+                <div class="event-info">
+                    <div class="time">17:00 - 19:00</div>
+                    <div class="event">Drink with Jessica</div>
+                </div>
+                <div class="event-info">
+                    <div class="time">20:00 - 00:00</div>
+                    <div class="event">Birthday Party</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="mid-right-header">
+                <div class="mid-right-header-left">
+                    <nav>
+                        <ul>
+                            <li class="active">Feed</li>
+                            <li>Popular</li>
+                            <li>Around</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mid-right-header-right">
+                    <nav>
+                        <ul>
+                            <li><i class="fas fa-search"></i></li>
+                            <li><i class="far fa-comment-alt"></i></li>
+                            <li><i class="fas fa-ellipsis-h"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mid-right-content">
+                <div class="mid-right-l">
+                    <div class="event-details">
+                        <div class="date-n-time"><h6>28 Sep . 19:00</h6></div>
+                        <div class="event-title"><h2>My first date from Tinder</h2></div>
+                        <div class="participant-details">
+                            <div class="participant"><div class="participant-pic pic-4"></div>Rebecca Hart</div>
+                            <div class="likes-n-comments"><i class="fas fa-heart"></i>35<i class="fas fa-comment-alt"></i>8</div>
+                        </div>
+                    </div>
+                    <div class="event-details">
+                        <div class="date-n-time"><h6>28 Sep</h6></div>
+                        <div class="event-title"><h2>New episode of Game of Thrones</h2></div>
+                        <div class="participant-details">
+                            <div class="participant"><div class="participant-pic pic-3"></div>Peter Novak</div>
+                            <div class="likes-n-comments"><i class="fas fa-heart highlight"></i>12<i class="fas fa-comment-alt"></i>1</div>
+                        </div>
+                    </div>
+                    <div class="event-details">
+                        Write a comment
+                    </div>
+                    <div class="event-details">
+                        <div class="date-n-time"><h6>28 Sep</h6></div>
+                        <div class="event-title"><h2>Sleeping whole day</h2></div>
+                        <div class="participant-details">
+                            <div class="participant"><div class="participant-pic pic-2"></div>Daniel Price</div>
+                            <div class="likes-n-comments"><i class="fas fa-heart"></i>24<i class="fas fa-comment-alt"></i>4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-right-r">
+                    <div class="recent-activity">
+                        <h4>Recent Activity</h4>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-3"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Peter Novak</span> liked</p>
+                                <p>Daniel's event</p>
+                            </div>
+                        </div>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-4"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Rebecca Hart</span> commented</p>
+                                <p>Jessica's event</p>
+                            </div>
+                        </div>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-1"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Jessica Faniz</span> started</p>
+                                <p>following John Nussel</p>
+                            </div>
+                        </div>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-5"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Eric Obrien</span> liked</p>
+                                <p>John's event</p>
+                            </div>
+                        </div>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-2"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Daniel Price</span> commented</p>
+                                <p>Jana's event</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="who-to-follow">
+                        <h4>Who To Follow</h4>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-3"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Peter Novak</span></p>
+                                <p>Designer</p>
+                            </div>
+                        </div>
+                        <div class="activity-info">
+                            <div class="profile-pic"><div class="participant-pic pic-4"></div></div>
+                            <div class="details">
+                                <p><span class="dark-color">Rebecca Hart</span></p>
+                                <p>Writer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
